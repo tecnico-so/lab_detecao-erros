@@ -96,7 +96,7 @@ O primeiro número em cada linha indica o nível em que essa função está, com
 Observe como o `gdb` mostra os argumentos passados às funções ao longo da pilha (neste caso, apenas o argumento `p`, sendo indicado o seu valor).
 
 _Nota: É frequente serem mostradas funções que são de sistema (embora não seja este o caso)._
-_ Quando isso se verifica, obviamente, o que interessa é a última função que correu do nosso programa, pois muito provavelmente será aí que está o erro._
+_Quando isso se verifica, obviamente, o que interessa é a última função que correu do nosso programa, pois muito provavelmente será aí que está o erro._
 
 9. Com esta informação, já detetou o _bug_?
 Então saia do `gdb` (use o comando `quit` ou `q`) e corrija o _bug_ no ficheiro `test.c`.
@@ -156,7 +156,7 @@ Pode ver em detalhe o código onde se encontra utilizando o comando `list` (abre
 - Pode avançar pelo código, linha a linha, utilizando o comando `next` (abreviado `n`);
 - Sempre que a execução chega a uma linha em que é chamada uma função (por exemplo, quando `list_tree` é chamada recursivamente para uma das sub-árvores), pode decidir entrar dentro dessa chamada usando o comando `step` (abreviado `s`), em vez do `next`;
 - Em cada momento, pode pedir para avaliar qualquer expressão, por exemplo, valores de variáveis no contexto atual, usando o comando `print <expressão>` (abreviado `p`).  
-_Nota: não pode observar variáveis que ainda não foram definidas, tendo de esperar até estar na linha seguinte à da definição para poder inspecioná-las;
+_Nota: não pode observar variáveis que ainda não foram definidas, tendo de esperar até estar na linha seguinte à da definição para poder inspecioná-las_;
 - Pode mudar de contexto com o comando `frame <nº de frame>` (abreviado `f`), em que o número do _frame_ é o primeiro número mostrado pelo comando `backtrace` antes de cada contexto.
 Isto é útil para observar variáveis definidas noutros contextos;
 - Caso se tenha esquecido de definir _breakpoints_, pode pausar a execução do programa com `Ctrl-C`.
