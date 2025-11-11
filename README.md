@@ -194,7 +194,7 @@ _Atenção que estas operações variam ligeiramente entre diferentes compilador
 ## Ferramenta de Depuração Alternativa: `lldb`
 
 Existem várias ferramentas de depuração para além do `gcc`, dos quais destacamos o `lldb` (abreviatura de _low-level debugger_).
-O `lldb` é funcionalmente idêntico ao `gdb` e mais fácil de obter em macOS (vem incluindo com as ferramentas de desenvolvimento).
+O `lldb` é funcionalmente idêntico ao `gdb` e mais fácil de obter em macOS (vem incluido com as ferramentas de desenvolvimento).
 
 **É recomendada a utilização do `gdb` e não se dará apoio à utilização `lldb` no decurso da cadeira!**
 
