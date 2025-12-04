@@ -206,6 +206,15 @@ Para além disto, foi desenhado com integração em mente, expondo toda a funcio
 Na [documentação oficial do `lldb`](https://lldb.llvm.org/index.html), encontra-se uma [referência de correspondências entre comandos do `gdb` e `lldb`](https://lldb.llvm.org/use/map.html).
 As formas abreviadas dos comandos usados neste guião são quase todas iguais ao equivalente no `gdb`, mas as formas longas têm maior variação, por exemplo, `break <nome função>` corresponde a `breakpoint set --name <nome função>`, mas `b` funciona da mesma forma que no `gdb`).
 
+## Ferramenta de Depuração Visual: `ddd`
+
+Os depuradores mais modernos incluem também uma componente de representação visual do estado da memória do programa.
+A ferramenta `ddd` (_Data Display Debugger_) foi uma das primeiras ferramentas a adotar esta abordagem e que pode ser usada como interface gráfica para o `gdb`.
+
+Nesta [imagem ilustrativa](https://www.gnu.org/software/ddd/all.png) podemos ver como as variáveis e os ponteiros são representados.
+
+O [manual do `ddd`](https://www.gnu.org/software/ddd/manual/) começa com um [exemplo prático](https://www.gnu.org/software/ddd/manual/html_mono/ddd.html#Sample-Session) da utilização da ferramenta.
+
 ----
 
 Contactos para sugestões/correções: [LEIC-Alameda](mailto:leic-so-alameda@disciplinas.tecnico.ulisboa.pt), [LEIC-Tagus](mailto:leic-so-tagus@disciplinas.tecnico.ulisboa.pt), [LETI](mailto:leti-so-tagus@disciplinas.tecnico.ulisboa.pt)
